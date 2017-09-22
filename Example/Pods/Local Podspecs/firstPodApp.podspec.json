@@ -1,9 +1,9 @@
 {
   "name": "firstPodApp",
   "version": "0.1.0",
-  "summary": "A short description of firstPodApp.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/gkreddy452@gmail.com/firstPodApp",
+  "summary": "This is my sample first pod related app.",
+  "description": "This is my sample first pod related app.",
+  "homepage": "https://github.com/gkreddy452/firstPodApp",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,17 @@
     "gkreddy452@gmail.com": "gkreddy452@gmail.com"
   },
   "source": {
-    "git": "https://github.com/gkreddy452@gmail.com/firstPodApp.git",
+    "git": "https://github.com/gkreddy452/firstPodApp.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "firstPodApp/Classes/**/*"
+  "source_files": "firstPodApp/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }

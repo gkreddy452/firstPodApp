@@ -1,5 +1,27 @@
 PODS:
-  - firstPodApp (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - firstPodApp (0.1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - firstPodApp (from `../`)
@@ -9,7 +31,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  firstPodApp: 569b04c617b937c9f39594d635b6cbbaa153d7a3
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  firstPodApp: 3b4387e4d951c2f5f62b05fe8039b6127a30daf9
 
 PODFILE CHECKSUM: 53bf2e294b9d26b1f3736956ddda812a39a3b16c
 
